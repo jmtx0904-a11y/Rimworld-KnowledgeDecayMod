@@ -27,8 +27,9 @@ jobs:
         cd Source
         dotnet build KnowledgeDecay.csproj -c Release
 
-    - name: Upload DLL
-      uses: actions/upload-artifact@v3
+   - name: Upload DLL
+      uses: actions/upload-artifact@v4
       with:
         name: KnowledgeDecayDLL
-        path: Source/bin/Release/net35/*.dll
+        path: Source/bin/Release/net35/**/*.dll
+
