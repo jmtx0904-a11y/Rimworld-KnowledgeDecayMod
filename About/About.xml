@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Knowledge Decay</name>
+  <author>Tú</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>
+    Los colonos olvidan investigaciones si no las transcriben a un documento.
+  </description>
+</ModMetaData>
